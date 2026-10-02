@@ -5,44 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="A clean reference list of GoBattle relic and ultrarare ticket values."
+      content="GoBattle.io item values and relic upgrade points."
     />
-    <title>GoBattle Ticket Values</title>
+    <title>Gobattle.io Item Values</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
   </head>
   <body>
     <div class="page-shell">
       <header class="site-header">
-        <div class="brand">
-          <div class="brand-mark" aria-hidden="true">✦</div>
-          <div>
-            <p class="eyebrow">GoBattle.io reference</p>
-            <h1>Ticket Values</h1>
-          </div>
-        </div>
-        <div class="header-badge">Relics + Ultrarares</div>
+        <h1>Gobattle.io Item Values</h1>
       </header>
 
       <main>
-        <section class="toolbar" aria-label="Filter ticket values">
+        <section class="toolbar" aria-label="Filter item values">
           <label class="search-box">
-            <span class="search-icon" aria-hidden="true">⌕</span>
             <span class="sr-only">Search items</span>
             <input
               id="search"
               type="search"
-              placeholder="Search by item name or category..."
+              placeholder="Search items..."
               autocomplete="off"
             />
             <button id="clear-search" class="clear-search" type="button" hidden>
               Clear
             </button>
           </label>
-          <div id="category-filters" class="filter-list" aria-label="Categories"></div>
+          <div id="category-filters" class="filter-list" aria-label="Item type"></div>
         </section>
 
-        <div id="results-summary" class="results-summary" aria-live="polite"></div>
         <div id="catalog" class="catalog"></div>
         <div id="empty-state" class="empty-state" hidden>
           <div class="empty-icon" aria-hidden="true">⌕</div>
