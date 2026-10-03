@@ -78,8 +78,8 @@ const ultraItems = [
   },
   {
     name: "Epic Strength Glove",
-    value: "200",
-    sortValue: 200,
+    value: "295",
+    sortValue: 295,
     image: "epic-glove.png",
   },
   {
@@ -114,8 +114,8 @@ const ultraItems = [
   },
   {
     name: "Anti Freezing Glove",
-    value: "70",
-    sortValue: 70,
+    value: "250",
+    sortValue: 250,
     image: "blue-glove.png",
   },
   {
